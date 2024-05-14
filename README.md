@@ -1,14 +1,14 @@
-# My One Code Camp Training Activity Repository
+# My Coding Training Activity Repository
 
-Welcome to my One Code Camp training activity repository!
+Welcome to my coding training activity repository!
 
 ## Introduction
 
-This repository is dedicated to showcasing the various short activities I've completed during my training at One Code Camp. Here, you'll find code snippets, exercises, and small projects that demonstrate my learning progress and skills development.
+This repository is dedicated to showcasing the various short activities I've completed during my training at coding. Here, you'll find code snippets, exercises, and small projects that demonstrate my learning progress and skills development.
 
 ## Purpose
 
-The main purpose of this repository is to document my activity-based learning journey at One Code Camp. Each activity represents a focused learning task or exercise designed to enhance my coding proficiency and understanding of key programming concepts.
+The main purpose of this repository is to document my activity-based learning journey at coding bootcampt. Each activity represents a focused learning task or exercise designed to enhance my coding proficiency and understanding of key programming concepts.
 
 ## Contents
 
@@ -33,6 +33,6 @@ If you'd like to contact me, you can reach me via:
 
 ## Acknowledgments
 
-I extend my thanks to the instructors and mentors at One Code Camp for their guidance and support throughout the training program.
+I extend my thanks to the instructors and mentors for their guidance and support throughout the training program.
 
 Thank you for visiting my repository!
