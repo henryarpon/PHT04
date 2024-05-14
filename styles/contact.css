@@ -1,0 +1,92 @@
+@import url("../reset.css");
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card {
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item label {
+    display: inline;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item input[type="tel"],
+.form-item textarea,
+.form-item select,
+.form-item input[type="checkbox"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-selections {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-item input[type="radio"] {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.form-item textarea {
+    resize: vertical;
+}
+
+.form-item.form-submit {
+    grid-column: span 2;
+    text-align: center;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

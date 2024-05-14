@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Contact Form</h1>
+        
+        <form action="" method="POST" class="contact-form">
+            <div class="form-item">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email Address" required >
+            </div>
+
+            <div class="form-item">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Send Us your Message" required></textarea>
+            </div>
+
+            <div class="form-item">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter Subject here" required>
+            </div>
+
+            <div class="form-item">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number" required>
+            </div>
+
+            <div class="form-item">
+                <label for="priority">Priority:</label>
+                <select id="priority" name="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <div class="form-selections">
+                <label for="newsletter">Newsletter Subscription:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+
+            <div class="form-selections">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div class="form-item form-submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
