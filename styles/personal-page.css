@@ -42,6 +42,7 @@ p {
 .intro {
     width: 40%;
     margin: auto;
+    text-align: justify;
 }
 
 .web-development {
@@ -123,7 +124,8 @@ a:hover {
 }
 
 .middle-container {
-    margin: 100px 0;
+    padding: 50px;
+    background-image: linear-gradient(to right top, #add8e6, #8be1e7, #71e8d8, #72edba, #90ee90);
 }
 
 .bottom-container {
