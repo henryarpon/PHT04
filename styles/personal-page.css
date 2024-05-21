@@ -4,6 +4,11 @@ body {
     text-align: center;
     font-family: 'Space Mono', monospace;
 }
+
+nav {
+    background-color: #434656;
+    padding: 15px;
+}
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Pacifico', cursive;
@@ -120,7 +125,7 @@ a:hover {
 .top-container {
     background-image: url('../images/pexel.jpg');
     position: relative;
-    padding-top: 100px;
+    padding: 180px;
 }
 
 .middle-container {
