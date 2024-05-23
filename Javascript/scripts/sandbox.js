@@ -1,6 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-
-
 
     console.log("Hello, World");
 
@@ -28,5 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
       var weather = "sunny";
       weather = "rainy";
       console.log(weather);
-});
 
